@@ -3,9 +3,10 @@
      Edit the sections below to keep this up to date!
      ============================================ -->
 
-<h1 align="center">Hi there, I'm Hema Lavanya Balam 👋</h1>
-
-<h3 align="center">Full Stack with Python Developer | Building real-world web apps with Django & React</h3>
+<!-- Banner: banner.svg sits at the repo root -->
+<p align="center">
+  <img src="banner.svg" alt="Hema Lavanya Balam — Python Full Stack Developer" width="100%" />
+</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/hema-lavanya-balam-422427351/">
