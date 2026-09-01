@@ -1,0 +1,106 @@
+<svg width="1536" height="512" viewBox="0 0 1536 512" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="45%" stop-color="#101a30"/>
+      <stop offset="100%" stop-color="#152544"/>
+    </linearGradient>
+    <linearGradient id="glow1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#60a5fa" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="glow2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#22d3ee" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="photoGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="78%" stop-color="#60a5fa" stop-opacity="0"/>
+      <stop offset="92%" stop-color="#60a5fa" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#60a5fa" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="circleClip">
+      <circle cx="1280" cy="256" r="150"/>
+    </clipPath>
+    <filter id="softBlur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.2"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1536" height="512" fill="url(#bg)"/>
+
+  <!-- Subtle grid / circuit-style pattern -->
+  <g opacity="0.10" stroke="#7dd3fc" stroke-width="1">
+    <path d="M0 90 H520 M0 170 H420 M0 250 H480 M0 330 H420 M0 410 H520"/>
+    <path d="M60 0 V512 M140 0 V512 M980 0 V512 M1060 0 V512"/>
+  </g>
+
+  <!-- Glowing accent lines -->
+  <rect x="0" y="60" width="1536" height="2" fill="url(#glow1)" opacity="0.6"/>
+  <rect x="0" y="452" width="1536" height="2" fill="url(#glow2)" opacity="0.5"/>
+
+  <!-- Faint code-style snippets scattered in background -->
+  <g fill="#8fb4ff" opacity="0.16" font-family="Consolas, Menlo, monospace" font-size="16">
+    <text x="40" y="130">def full_stack_dev():</text>
+    <text x="70" y="155">return "Django + React"</text>
+    <text x="40" y="230">SELECT skills FROM dev;</text>
+    <text x="40" y="300">git commit -m "build"</text>
+    <text x="40" y="360">import react from 'react'</text>
+    <text x="600" y="440">$ python manage.py runserver</text>
+  </g>
+
+  <!-- Minimal abstract tech glyphs -->
+  <g opacity="0.5">
+    <!-- Python-esque circles -->
+    <circle cx="880" cy="90" r="5" fill="#60a5fa"/>
+    <circle cx="905" cy="90" r="5" fill="#22d3ee"/>
+    <!-- Node/graph dots and connecting lines representing data/network -->
+    <g stroke="#60a5fa" stroke-width="1.4" opacity="0.55">
+      <line x1="850" y1="420" x2="920" y2="380"/>
+      <line x1="920" y1="380" x2="990" y2="420"/>
+      <line x1="920" y1="380" x2="920" y2="320"/>
+    </g>
+    <circle cx="850" cy="420" r="4" fill="#22d3ee"/>
+    <circle cx="920" cy="380" r="4" fill="#60a5fa"/>
+    <circle cx="990" cy="420" r="4" fill="#22d3ee"/>
+    <circle cx="920" cy="320" r="4" fill="#60a5fa"/>
+  </g>
+
+  <!-- Photo glow ring -->
+  <circle cx="1280" cy="256" r="168" fill="url(#photoGlow)"/>
+  <circle cx="1280" cy="256" r="154" fill="none" stroke="#60a5fa" stroke-width="2" opacity="0.55"/>
+
+  <!-- Profile photo -->
+  <image href="assets/profile.jpg" x="1130" y="106" width="300" height="300" clip-path="url(#circleClip)" preserveAspectRatio="xMidYMid slice"/>
+
+  <!-- Left-side text -->
+  <text x="70" y="215" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="56" font-weight="700" fill="#f1f5f9">
+    Hema Lavanya Balam
+  </text>
+  <text x="70" y="270" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" fill="#93c5fd">
+    Python Full Stack Developer
+  </text>
+  <text x="70" y="305" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" fill="#94a3b8">
+    Computer Science Student  ·  Django + React + SQL
+  </text>
+
+  <!-- Tag pills -->
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#0b1220">
+    <rect x="70" y="345" width="76" height="32" rx="16" fill="#60a5fa" opacity="0.85"/>
+    <text x="86" y="366">Python</text>
+
+    <rect x="156" y="345" width="76" height="32" rx="16" fill="#22d3ee" opacity="0.85"/>
+    <text x="172" y="366">Django</text>
+
+    <rect x="242" y="345" width="68" height="32" rx="16" fill="#38bdf8" opacity="0.85"/>
+    <text x="256" y="366">React</text>
+
+    <rect x="320" y="345" width="60" height="32" rx="16" fill="#818cf8" opacity="0.85"/>
+    <text x="333" y="366">SQL</text>
+
+    <rect x="390" y="345" width="58" height="32" rx="16" fill="#60a5fa" opacity="0.85"/>
+    <text x="402" y="366">Git</text>
+  </g>
+</svg>
