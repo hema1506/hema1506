@@ -111,6 +111,26 @@ A simple, interactive feedback interface that lets users rate customer support s
 
 ---
 
+## 💻 Coding Profiles
+
+<p align="center">
+  <a href="https://leetcode.com/u/23MH1A0502/">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
+  </a>
+  <a href="https://www.hackerrank.com/profile/balamlavanya143">
+    <img src="https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white" />
+  </a>
+  <a href="https://www.geeksforgeeks.org/profile/balamlaver55">
+    <img src="https://img.shields.io/badge/GeeksforGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://leetcode-stats-badge.herokuapp.com/?username=23MH1A0502" alt="LeetCode Stats" />
+</p>
+
+---
+
 ## 📊 GitHub Stats
 
 <p align="center">
